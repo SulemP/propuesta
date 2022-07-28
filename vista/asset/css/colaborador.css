@@ -1,0 +1,68 @@
+#colaborador{
+    position: relative;
+    font-size: 16px;
+    /* height: 68.75em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.formulario__form{
+    width: 90%;
+    height: 90%;
+    margin-top: 2rem!important;
+    margin: auto;
+    background-color: var(--obscuro);
+    box-shadow: 0 0 6px var(--dorodo);
+    border-radius: .625em;
+}
+
+#form{
+    padding: 10px 0;
+}
+
+.formulario__formGrupo{
+    position: relative;
+    margin: 1.5em;
+    color: white;
+}
+
+.formulario__input{
+    background-color: transparent;
+    /* color: var(--cielo); */
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom: #CBBABE thin solid;
+}
+
+input:focus{
+    outline: none;
+    color:var(--dorodo);
+}
+
+label{
+    color: var(--cielo);
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    left: .3125em;
+    top: .25em;
+    transition: 0.5 ease-in-out all;
+    pointer-events: none;
+}
+
+input:focus~label{ 
+    top: -.875em;
+    font-size: 14px;
+    color: var(--dorado);
+}
+
+/* .barra{
+    position: relative;
+    display: block;
+    width: 100%;
+} */
+

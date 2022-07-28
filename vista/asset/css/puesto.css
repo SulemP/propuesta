@@ -1,0 +1,13 @@
+#puesto,#prestaciones{
+    margin-top: 5rem;
+}
+
+.formulario__puesto{
+    width: 90%;
+    height: 85%;
+    margin-top: 2rem!important;
+    margin: auto;
+    background-color: var(--obscuro);
+    box-shadow: 0 0 6px var(--dorodo);
+    border-radius: .625em;
+}

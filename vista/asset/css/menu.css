@@ -1,0 +1,37 @@
+.menu__izq{
+    position: fixed;
+    margin-top: 4%;
+    /* margin-left: 10px; */
+    /* background-color: var(--obscuro); */
+    padding-top: 1%;
+    color: white;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.izquierda{
+    text-transform: uppercase;
+    list-style: none;
+    z-index: 10;
+}
+
+.izq__cubo{
+    padding: 0% 5%;
+}
+
+.izq__flecha{
+    float: right;
+}
+
+.izquierda li a{
+    background-color:var(--obscuro);
+    color: var(--cielo);
+    padding: 4px 10px;
+    display: block;
+}
+
+.izquierda li a:hover{
+    background-color: var(--dorado);
+    color: var(--obscuro);
+ 
+}

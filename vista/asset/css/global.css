@@ -1,0 +1,101 @@
+:root{
+    --dorado: #CBBA8E; 
+    --cielo: rgb(139,162,197);
+    --rey: rgb(43,86,148);
+    --obscuro: rgb(66,66,66);
+    --claro: rgb(84,84,84);
+}
+
+body{
+    background-color: black;
+    background-image: url(https://infraestructuramedica.mx/wp-content/uploads/2020/02/cropped-cropped-Logo_IM_RGB-01-1-1-258x81.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 8rem;
+}
+
+.im{
+    width: 8rem;
+    height: 10rem;
+    object-fit: cover;
+    opacity: .5;
+    z-index: -1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.titulo{
+    color: var(--cielo);
+    text-align: center;
+}
+
+.fecha{
+    /* float: right; */
+    margin-top: 3%;
+    /* margin-left: 1%; */
+}
+
+#fecha{
+    margin-left: 2%;
+    width: 90px;
+}
+
+
+.textoGeneral{
+    color: var(--dorado);
+    text-transform: uppercase;
+    margin-left: 5%;
+}
+
+select{
+    background-color: transparent;
+    color: var(--cielo);
+    border: var(--cielo);
+    border-radius: .2rem;
+}
+
+select:hover{
+    border: 3px solid var(--dorado);
+}
+
+.opcion{
+    position: fixed;
+    right: 12%;
+    top: 1.5rem;
+    z-index: 10;
+}
+
+.bloques a, #btn-mas, .btn-mas{
+    display: block;
+    text-decoration: none;
+    background: var(--dorado);
+    color: white;
+    width: 3.4375rem;
+    height: 3.4375rem;
+    line-height: 3.4375rem;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px white;
+    transition: all 500ms ease;
+}
+
+.bloques a:hover{
+    background: var(--cielo);
+    color: var(--obscuro);
+}
+
+.bloques a{
+    margin-bottom: -0.9375rem;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-mas:checked~ .bloques a{
+    margin-bottom: 0.625rem;
+    opacity: 1;
+    visibility: visible;
+}
+
+
